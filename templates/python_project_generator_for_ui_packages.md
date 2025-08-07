@@ -149,10 +149,6 @@ ignore = ["E501"]
 
 [tool.mypy]
 strict = true
-
-[build-system]
-requires = ["uv"]
-build-backend = "uv.build"
 ```
 *If you use a different build system or package manager, adapt this section accordingly.*
 
